@@ -1,0 +1,8 @@
+spring:
+  application.name: client-service
+  cloud.kubernetes.reload.enabled: true
+server.port: 8001
+ribbon:
+  http:
+    client:
+      enabled: true

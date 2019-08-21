@@ -1,0 +1,5 @@
+com\client\service\config\RibbonConfiguration.class
+com\client\service\services\TravelAgencyService.class
+com\client\service\ClientConfigApplication.class
+com\client\service\controllers\ClientController.class
+com\client\service\config\ClientConfig.class

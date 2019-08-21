@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: gateway-service
+
+spec:
+  backend:
+    serviceName: default-http-backend
+    servicePort: 80
+  rules:
+    - host: microservices.info
+      http:
+        paths:
+          - path: /client/*
+            backend:
+              serviceName: client-service
+              servicePort: 8001
+          - path: /agency/*
+            backend:
+              serviceName: travel-agency-service
+              servicePort: 8002

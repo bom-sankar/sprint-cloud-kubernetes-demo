@@ -1,0 +1,3 @@
+spring:
+  application.name: travel-agency-service
+server.port: 8002
