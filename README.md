@@ -1,4 +1,4 @@
-# kubernets-poc
+# kubernetes-poc
 
 #Environment Setup 
 
