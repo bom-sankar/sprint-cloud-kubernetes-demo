@@ -7,6 +7,7 @@ cd ..
  
 ### set docker env
 eval $(minikube docker-env)
+kubectl create clusterrolebinding admin --clusterrole=cluster-admin --serviceaccount=default:default
  
 ### build the docker images on minikube
 cd travel-agency-service
@@ -34,3 +35,4 @@ kubectl create -f gateway-service/gateway-service-deployment.yaml
  
 # Check that the pods are running
 kubectl get pods
+minikube service client-service

@@ -1,5 +1,5 @@
-E:\TECTES\Kubernets_POC\kubernets-microservices-poc\client-service\src\main\java\com\client\service\controllers\ClientController.java
-E:\TECTES\Kubernets_POC\kubernets-microservices-poc\client-service\src\main\java\com\client\service\ClientConfigApplication.java
-E:\TECTES\Kubernets_POC\kubernets-microservices-poc\client-service\src\main\java\com\client\service\config\ClientConfig.java
-E:\TECTES\Kubernets_POC\kubernets-microservices-poc\client-service\src\main\java\com\client\service\config\RibbonConfiguration.java
-E:\TECTES\Kubernets_POC\kubernets-microservices-poc\client-service\src\main\java\com\client\service\services\TravelAgencyService.java
+/Users/shankar/Projects/kubernetes-microservices-poc/client-service/src/main/java/com/client/service/ClientConfigApplication.java
+/Users/shankar/Projects/kubernetes-microservices-poc/client-service/src/main/java/com/client/service/config/ClientConfig.java
+/Users/shankar/Projects/kubernetes-microservices-poc/client-service/src/main/java/com/client/service/config/RibbonConfiguration.java
+/Users/shankar/Projects/kubernetes-microservices-poc/client-service/src/main/java/com/client/service/controllers/ClientController.java
+/Users/shankar/Projects/kubernetes-microservices-poc/client-service/src/main/java/com/client/service/services/TravelAgencyService.java
